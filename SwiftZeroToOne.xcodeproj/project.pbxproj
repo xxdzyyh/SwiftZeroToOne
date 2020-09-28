@@ -15,6 +15,18 @@
 		FE311C7D2520A535001366C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE311C7B2520A535001366C6 /* LaunchScreen.storyboard */; };
 		FE311C882520A535001366C6 /* SwiftZeroToOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE311C872520A535001366C6 /* SwiftZeroToOneTests.swift */; };
 		FE311C932520A535001366C6 /* SwiftZeroToOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE311C922520A535001366C6 /* SwiftZeroToOneUITests.swift */; };
+		FE311CAA2520A70B001366C6 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE311CA92520A70B001366C6 /* Book.swift */; };
+		FE311CB22520A74E001366C6 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE311CB12520A74E001366C6 /* Article.swift */; };
+		FE311CB72520A87B001366C6 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE311CB62520A87B001366C6 /* Chapter.swift */; };
+		FE311CBD2520A91A001366C6 /* XTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE311CBC2520A91A001366C6 /* XTableVC.swift */; };
+		FE311CC22520AA2A001366C6 /* XTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE311CC12520AA2A001366C6 /* XTableViewCell.swift */; };
+		FE311CC72520AA4E001366C6 /* UITableViewCell+XF.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE311CC62520AA4E001366C6 /* UITableViewCell+XF.swift */; };
+		FE311CCC2520AA80001366C6 /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE311CCB2520AA80001366C6 /* NSObject+ClassName.swift */; };
+		FE311CD22520AC4A001366C6 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE311CD02520AC4A001366C6 /* ArticleCell.swift */; };
+		FE311CD32520AC4A001366C6 /* ArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE311CD12520AC4A001366C6 /* ArticleCell.xib */; };
+		FE311CDE2520B2F1001366C6 /* XInsetLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE311CDD2520B2F1001366C6 /* XInsetLabel.swift */; };
+		FE311CE52520B3BD001366C6 /* XInsetLabelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE311CE32520B3BD001366C6 /* XInsetLabelVC.swift */; };
+		FE311CE62520B3BD001366C6 /* XInsetLabelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE311CE42520B3BD001366C6 /* XInsetLabelVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		FE311C8E2520A535001366C6 /* SwiftZeroToOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftZeroToOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE311C922520A535001366C6 /* SwiftZeroToOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftZeroToOneUITests.swift; sourceTree = "<group>"; };
 		FE311C942520A535001366C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE311CA92520A70B001366C6 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		FE311CB12520A74E001366C6 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		FE311CB62520A87B001366C6 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		FE311CBC2520A91A001366C6 /* XTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTableVC.swift; sourceTree = "<group>"; };
+		FE311CC12520AA2A001366C6 /* XTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTableViewCell.swift; sourceTree = "<group>"; };
+		FE311CC62520AA4E001366C6 /* UITableViewCell+XF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+XF.swift"; sourceTree = "<group>"; };
+		FE311CCB2520AA80001366C6 /* NSObject+ClassName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
+		FE311CD02520AC4A001366C6 /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		FE311CD12520AC4A001366C6 /* ArticleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleCell.xib; sourceTree = "<group>"; };
+		FE311CDD2520B2F1001366C6 /* XInsetLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XInsetLabel.swift; sourceTree = "<group>"; };
+		FE311CE32520B3BD001366C6 /* XInsetLabelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XInsetLabelVC.swift; sourceTree = "<group>"; };
+		FE311CE42520B3BD001366C6 /* XInsetLabelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XInsetLabelVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +123,8 @@
 		FE311C6F2520A534001366C6 /* SwiftZeroToOne */ = {
 			isa = PBXGroup;
 			children = (
+				FE311CBB2520A8F1001366C6 /* Base */,
+				FE311CA62520A686001366C6 /* Book */,
 				FE311C702520A534001366C6 /* AppDelegate.swift */,
 				FE311C722520A534001366C6 /* SceneDelegate.swift */,
 				FE311C742520A534001366C6 /* ViewController.swift */,
@@ -126,6 +152,56 @@
 				FE311C942520A535001366C6 /* Info.plist */,
 			);
 			path = SwiftZeroToOneUITests;
+			sourceTree = "<group>";
+		};
+		FE311CA62520A686001366C6 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				FE311CA92520A70B001366C6 /* Book.swift */,
+				FE311CA72520A694001366C6 /* Chapter */,
+				FE311CB12520A74E001366C6 /* Article.swift */,
+				FE311CB62520A87B001366C6 /* Chapter.swift */,
+				FE311CD02520AC4A001366C6 /* ArticleCell.swift */,
+				FE311CD12520AC4A001366C6 /* ArticleCell.xib */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		FE311CA72520A694001366C6 /* Chapter */ = {
+			isa = PBXGroup;
+			children = (
+				FE311CA82520A6E8001366C6 /* Article */,
+			);
+			path = Chapter;
+			sourceTree = "<group>";
+		};
+		FE311CA82520A6E8001366C6 /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				FE311CE22520B394001366C6 /* XInsetLabel */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		FE311CBB2520A8F1001366C6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FE311CBC2520A91A001366C6 /* XTableVC.swift */,
+				FE311CC12520AA2A001366C6 /* XTableViewCell.swift */,
+				FE311CC62520AA4E001366C6 /* UITableViewCell+XF.swift */,
+				FE311CCB2520AA80001366C6 /* NSObject+ClassName.swift */,
+				FE311CDD2520B2F1001366C6 /* XInsetLabel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FE311CE22520B394001366C6 /* XInsetLabel */ = {
+			isa = PBXGroup;
+			children = (
+				FE311CE32520B3BD001366C6 /* XInsetLabelVC.swift */,
+				FE311CE42520B3BD001366C6 /* XInsetLabelVC.xib */,
+			);
+			path = XInsetLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +310,8 @@
 				FE311C7D2520A535001366C6 /* LaunchScreen.storyboard in Resources */,
 				FE311C7A2520A535001366C6 /* Assets.xcassets in Resources */,
 				FE311C782520A534001366C6 /* Main.storyboard in Resources */,
+				FE311CD32520AC4A001366C6 /* ArticleCell.xib in Resources */,
+				FE311CE62520B3BD001366C6 /* XInsetLabelVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +336,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE311CAA2520A70B001366C6 /* Book.swift in Sources */,
 				FE311C752520A534001366C6 /* ViewController.swift in Sources */,
+				FE311CC22520AA2A001366C6 /* XTableViewCell.swift in Sources */,
+				FE311CBD2520A91A001366C6 /* XTableVC.swift in Sources */,
+				FE311CE52520B3BD001366C6 /* XInsetLabelVC.swift in Sources */,
 				FE311C712520A534001366C6 /* AppDelegate.swift in Sources */,
+				FE311CC72520AA4E001366C6 /* UITableViewCell+XF.swift in Sources */,
+				FE311CD22520AC4A001366C6 /* ArticleCell.swift in Sources */,
+				FE311CDE2520B2F1001366C6 /* XInsetLabel.swift in Sources */,
+				FE311CB72520A87B001366C6 /* Chapter.swift in Sources */,
+				FE311CCC2520AA80001366C6 /* NSObject+ClassName.swift in Sources */,
 				FE311C732520A534001366C6 /* SceneDelegate.swift in Sources */,
+				FE311CB22520A74E001366C6 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +454,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
