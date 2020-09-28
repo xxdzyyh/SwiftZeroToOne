@@ -22,13 +22,14 @@ class ViewController: XTableVC {
             Article(title: "String", subTitle: "字符串", content: {
                 
             }),
-            
             Article(title: "Float", subTitle: "浮点数", content: {
                 
             }),
-            
             Article(title: "XInsetLabel", subTitle: "可以设置内边距的Label", content: {
                 self.navigationController?.pushViewController(XInsetLabelVC(), animated: true)
+            }),
+            Article(title: "UIButtonImagePostion", subTitle: "简单的设置按钮图片的位置", content: {
+                self.navigationController?.pushViewController(UIButtonImagePostionVC(), animated: true)
             })
         ])
         
